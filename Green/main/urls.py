@@ -9,5 +9,6 @@ urlpatterns = [
 	path('empty/', views.empty, name='empty'),
 	path('profile/', views.profile, name='profile'),
 	path('test/', views.test, name='test'),
+	path('collection/', views.collection, name='collection'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

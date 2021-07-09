@@ -7,8 +7,9 @@ from .models import Consumer
 def create_consumer_on_user_creation(sender, instance, created, **kwargs):
 	print("Signal Recived")
 	print(created)
-	if created:
-		consumer = Consumer.objects.create(user=instance)
-		consumer.save()
-		print("saved")
+	if not instance.is_staff:
+		if created:
+			consumer = Consumer.objects.create(user=instance)
+			consumer.save()
+			print("saved")
 

@@ -30,7 +30,6 @@ def register_request(request):
 		if form.is_valid():
 			user = form.save()
 			login(request, user)
-			messages.success(request, "Registration successful. ")
 			return redirect("/")
 		print("Not valid")
 		messages.error(request, "Unsuccessful registration. Invalid information")
@@ -43,8 +42,8 @@ def login_request(request):
 		password = request.POST['password']
 		user = authenticate(request, username=username, password=password)
 		if user is not None:
-			login(request, user)
-			redirect('/')
+				login(request, user)
+				redirect('/')
 		else:
 			messages.error(request, 'Invalid Credentials Provided')
 	else:
