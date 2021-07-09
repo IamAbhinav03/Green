@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Empty Trash">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Empty Trash</title>
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/Empty-Trash.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.18.4, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"sameAs": [
+				"#",
+				"#"
+		]
+}</script>
+    <meta name="theme-color" content="#6ac17d">
+    <meta property="og:title" content="Empty Trash">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-palette-5-dark-2 u-header" id="sec-4767"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-2" href="{% url 'home' %}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-2" href="{% url 'reuse' %}" style="padding: 10px 20px;">Reuse</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-2" href="{% url 'empty' %}" style="padding: 10px 20px;">Empty Trash</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-2" href="{% url 'profile' %}" style="padding: 10px 20px;">Profile</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-2" style="padding: 10px 20px;">Logout</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'home'%}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'reuse' %}" style="padding: 10px 20px;">Reuse</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'empty' %}" style="padding: 10px 20px;">Empty Trash</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'profile' %}" style="padding: 10px 20px;">Profile</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" style="padding: 10px 20px;">Logout</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h5 class="u-custom-font u-font-lobster u-text u-text-1">
+          <span class="u-text-palette-1-base">GREEN</span>
+          <span style="font-weight: 400;">
+            <span class="u-text-palette-1-base"></span>
+          </span>
+        </h5>
+      </div></header>
+    <section class="u-align-left u-clearfix u-image u-shading u-section-1" id="sec-3467" data-image-width="1600" data-image-height="838">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-align-center u-container-style u-grey-5 u-group u-group-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <h1 class="u-text u-text-1">Empty Trash&nbsp;<br>&nbsp;<span class="u-icon u-text-palette-4-base u-icon-1"><svg class="u-svg-content" viewBox="0 0 511.99 511.99" style="width: 1em; height: 1em;"><g><path d="m499.354 275.396-22.757-7.233v-67.734c0-10.764-8.757-19.521-19.521-19.521h-49.95c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h49.95c2.492 0 4.521 2.028 4.521 4.521v10.588h-55.495c-15.179 0-27.528 12.349-27.528 27.528v15.075c0 15.179 12.35 27.528 27.528 27.528h61.832l26.877 8.544c1.304.413 2.179 1.61 2.179 2.978v11.727h-7.192c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h7.192v9.628c0 1.724-1.402 3.126-3.127 3.126h-26.047c-9.831-21.6-31.425-35.915-55.683-35.915-24.219 0-45.836 14.28-55.683 35.915h-21.709c0-34.731 0-63.72 0-98.73 0-20.684 16.828-37.512 37.512-37.512h4.887c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-4.887c-28.955 0-52.512 23.557-52.512 52.512v13.042h-16.351c-8.447 0-15.319 6.873-15.319 15.32v42.615h-50.177v-12.161h11.965c2.509 0 4.852-1.254 6.242-3.342l81.079-121.717h8.37c6.021 0 11.748-2.278 16.125-6.413l22.436-21.197 33.933-10.302c3.16-.959 5.321-3.874 5.321-7.177v-21.146c0-4.142-3.357-7.5-7.5-7.5h-41.979c-6.023 0-11.75 2.278-16.126 6.413l-21.548 20.361h-100.725c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h103.709c1.916 0 3.759-.733 5.151-2.048l23.717-22.41c1.58-1.493 3.648-2.315 5.823-2.315h34.479v8.085l-30.301 9.199c-1.11.337-2.128.928-2.972 1.725l-23.719 22.409c-1.58 1.494-3.648 2.316-5.823 2.316-8.075 0-251.764 0-275.443 0-2.125 0-4.149.901-5.571 2.479l-34.767 38.58c-3.232 3.586-8.601 3.666-11.977.624-3.475-3.131-3.754-8.504-.625-11.978l39.528-43.865c1.605-1.781 3.902-2.803 6.301-2.803h142.502c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-142.502c-6.641 0-12.999 2.829-17.443 7.762l-39.529 43.865c-8.665 9.618-7.891 24.494 1.726 33.161 9.665 8.709 24.517 7.869 33.162-1.725l.802-.889 9.524 11.566v90.441h-4.031c-15.715 0-30.018 8.643-37.328 22.555l-4.839 9.211c-1.222 2.325-1.138 5.119.221 7.367 1.358 2.247 3.793 3.621 6.419 3.621h44.433c-.564 3.333-.875 6.751-.875 10.242 0 33.693 27.454 61.157 61.158 61.157 33.694 0 61.157-27.454 61.157-61.157 0-3.491-.31-6.909-.875-10.242h22.852v11.145c0 9.011 7.33 16.341 16.34 16.341h14.524c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-14.525c-.739 0-1.34-.602-1.34-1.341v-11.145h85.211v11.145c0 .739-.601 1.341-1.34 1.341h-38.021c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h38.021c9.01 0 16.34-7.33 16.34-16.341v-11.145h37.109c-.565 3.333-.875 6.751-.875 10.242 0 33.694 27.454 61.157 61.157 61.157 33.694 0 61.157-27.454 61.157-61.157 0-3.491-.31-6.909-.875-10.242h21.447c9.995 0 18.127-8.131 18.127-18.126v-36.354c.002-7.933-5.078-14.874-12.634-17.274zm-105.78-21.777v-15.075c0-6.908 5.62-12.528 12.528-12.528h55.495v40.132h-55.495c-6.908 0-12.528-5.621-12.528-12.529zm-90.502 8.161c0-.177.144-.32.319-.32h16.351v42.936h-16.67zm-80.177 42.616h-76.036c-1.522-.879-3.083-1.696-4.684-2.443v-9.718h80.72zm-61.634 60.496h.673c-1.173 7.143-3.991 13.734-8.051 19.38l-.459-.459c-2.93-2.928-7.678-2.928-10.607 0-2.929 2.93-2.929 7.678 0 10.607l.459.459c-5.646 4.06-12.237 6.879-19.38 8.051v-.673c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v.673c-7.143-1.172-13.734-3.991-19.38-8.051l.459-.459c2.929-2.93 2.929-7.678 0-10.607-2.93-2.928-7.678-2.928-10.607 0l-.459.459c-4.06-5.646-6.879-12.238-8.052-19.38h.674c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-.674c1.173-7.143 3.991-13.734 8.052-19.38l.459.46c2.931 2.929 7.678 2.928 10.607 0 2.929-2.93 2.929-7.678 0-10.607l-.459-.459c5.646-4.06 12.237-6.878 19.38-8.051v.673c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-.673c7.143 1.172 13.734 3.991 19.38 8.051l-.459.459c-2.929 2.93-2.929 7.678 0 10.607 1.465 1.464 3.385 2.196 5.304 2.196s3.839-.732 5.304-2.196l.459-.459c4.06 5.646 6.879 12.237 8.051 19.38h-.673c-4.143 0-7.5 3.357-7.5 7.5s3.356 7.499 7.499 7.499zm16.826-197.717-61.827 102.146c-9.321-11.32-18.694-22.702-28.184-34.227l40.771-67.918h49.24zm66.98 0-66.068 110.059c-9.397 0-39.561 0-49.995 0l66.618-110.059zm-131.62 122.327c1.425 1.73 3.549 2.732 5.79 2.732h7.938v4.971c-3.502-.626-7.1-.971-10.779-.971-8.752 0-17.073 1.861-24.608 5.187v-38.223zm132.397-12.267c-10.39 0-38.965 0-49.349 0l66.067-110.059h56.595zm-172.398-110.06h37.906l-33.394 55.629c-9.721-11.806-17.363-21.085-26.089-31.684zm-7.208 64.996 10.55 12.812v59.413h-10.55zm-42.061 99.979c4.945-7.916 13.592-12.754 23.029-12.754h21.32c-3.098 3.895-5.729 8.173-7.814 12.754zm147.901 0c-2.085-4.581-4.715-8.859-7.813-12.754h155.477v12.754c-17.946 0-132.228 0-147.664 0zm284.92 32.742h.673c-1.173 7.143-3.991 13.734-8.051 19.38l-.459-.459c-2.93-2.928-7.678-2.928-10.607 0-2.929 2.93-2.929 7.678 0 10.607l.459.459c-5.646 4.06-12.237 6.879-19.38 8.051v-.673c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v.673c-7.143-1.173-13.734-3.991-19.38-8.051l.459-.459c2.929-2.93 2.929-7.678 0-10.607-2.93-2.928-7.678-2.928-10.607 0l-.459.459c-4.06-5.646-6.878-12.237-8.051-19.38h.673c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-.673c1.172-7.143 3.991-13.734 8.051-19.38l.459.459c1.465 1.464 3.385 2.196 5.304 2.196s3.839-.732 5.304-2.196c2.929-2.93 2.929-7.678 0-10.607l-.459-.459c5.646-4.06 12.237-6.879 19.38-8.051v.673c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-.673c7.143 1.172 13.734 3.991 19.38 8.051l-.459.459c-2.929 2.93-2.929 7.678 0 10.607 1.465 1.464 3.385 2.196 5.304 2.196s3.839-.732 5.304-2.196l.459-.459c4.06 5.646 6.879 12.237 8.051 19.38h-.673c-4.143 0-7.5 3.357-7.5 7.5s3.356 7.5 7.498 7.5z"></path><path d="m412.133 332.757c-13.584 0-24.635 11.051-24.635 24.635s11.051 24.635 24.635 24.635 24.635-11.051 24.635-24.635-11.051-24.635-24.635-24.635zm0 34.27c-5.312 0-9.635-4.322-9.635-9.635s4.322-9.635 9.635-9.635 9.635 4.322 9.635 9.635-4.322 9.635-9.635 9.635z"></path><path d="m116.396 332.757c-13.584 0-24.636 11.051-24.636 24.635s11.052 24.635 24.636 24.635 24.635-11.051 24.635-24.635-11.051-24.635-24.635-24.635zm0 34.27c-5.313 0-9.636-4.322-9.636-9.635s4.322-9.635 9.636-9.635c5.312 0 9.635 4.322 9.635 9.635s-4.323 9.635-9.635 9.635z"></path>
+</g></svg><img></span>&nbsp;<br>
+            </h1>
+            <p class="u-text u-text-2">Inform us when your bin is full. We will collect it as soon as possible</p>
+            <a href="" class="u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-4-base u-radius-50 u-btn-1" onclick="myFunction()">Empty</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function myFunction() {
+          alert("We got your notification. We will come soon as possible");
+      }
+    </script>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-palette-5-dark-2 u-footer" id="sec-66d0"><div class="u-clearfix u-sheet u-sheet-1">
+        <h5 class="u-custom-font u-font-lobster u-text u-text-1">
+          <span class="u-text-palette-1-base">GREEN</span>
+          <span style="font-weight: 400;">
+            <span class="u-text-palette-1-base"></span>
+          </span>
+        </h5>
+        <div class="u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1">
+          <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-f107"></use></svg>
+          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f107" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
+        </span>
+          </a>
+          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2">
+          <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-e140"></use></svg>
+          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e140" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
+        </span>
+          </a>
+          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3">
+          <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-4718"></use></svg>
+          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4718" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
+        </span>
+          </a>
+          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4">
+          <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-438b"></use></svg>
+          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-438b" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg>
+        </span>
+          </a>
+          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-pinterest u-icon-5">
+          <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-3428"></use></svg>
+          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3428" class="u-svg-content"><path d="M61.9,79.8c-5.5-0.3-7.8-3.1-12-5.8c-2.3,12.4-5.4,24.3-13.8,30.5c-2.6-18.7,3.8-32.8,6.9-47.7 c-5.1-8.7,0.7-26.2,11.5-21.9c13.5,5.4-11.6,32.3,5.1,35.7c17.6,3.5,24.7-30.5,13.8-41.4c-15.7-16.1-45.7-0.5-42,22.3 c0.9,5.6,6.7,7.2,2.3,15c-10.1-2.2-13-10.2-12.7-20.7c0.6-17.3,15.5-29.3,30.5-31.1c19-2.2,36.8,6.9,39.2,24.7 C93.4,59.5,82.3,81.3,61.9,79.8z"></path></svg>
+        </span>
+          </a>
+        </div>
+        <p class="u-small-text u-text u-text-variant u-text-2">Created by Abhinav M Hari &amp; Pavithran V</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
