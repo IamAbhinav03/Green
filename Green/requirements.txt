@@ -22,6 +22,7 @@ decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 dill @ file:///tmp/build/80754af9/dill_1605066453875/work
 distributed @ file:///opt/concourse/worker/volumes/live/f9b0a56d-81fd-42e9-5d91-f85fcf41a787/volume/distributed_1622643711976/work
+dj-database-url==0.5.0
 Django==3.2.4
 django-allauth==0.44.0
 entrypoints==0.3
@@ -29,6 +30,7 @@ fast-histogram @ file:///opt/concourse/worker/volumes/live/7e641de8-c470-4a63-56
 fsspec @ file:///tmp/build/80754af9/fsspec_1617959894824/work
 glue-core @ file:///opt/concourse/worker/volumes/live/7e1121bb-5fe7-4790-6250-8c38d039dc3d/volume/glue-core_1614166676269/work
 glue-vispy-viewers==0.12.2
+gunicorn==20.1.0
 h5py @ file:///opt/concourse/worker/volumes/live/56689b15-3c28-448e-4d15-0738a6ab5dde/volume/h5py_1622088434244/work
 HeapDict==1.0.1
 idna==2.10
@@ -76,6 +78,7 @@ plotly @ file:///tmp/build/80754af9/plotly_1610565580232/work
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1618088486455/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
 psutil @ file:///opt/concourse/worker/volumes/live/0673cd4b-30c1-4470-7490-d8955610f5d5/volume/psutil_1612298002202/work
+psycopg2==2.9.1
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 pyerfa @ file:///opt/concourse/worker/volumes/live/f87989f6-b347-4e0a-7be4-c3773473f3c6/volume/pyerfa_1621560794706/work
@@ -115,6 +118,7 @@ urllib3==1.26.5
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==2.0.1
+whitenoise==5.2.0
 xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
 zict==2.0.0
 zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
