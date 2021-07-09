@@ -62,7 +62,8 @@ class ResNet(ImageClassificationBase):
 		return torch.sigmoid(self.network(xb))
 
 
-PATH = '/Users/abhinav/Dev/Untitled Folder/weight.pt'
+# PATH = '/Users/abhinav/Dev/Untitled Folder/weight.pt' mac
+PATH = 'C:/Users/ASUS/Desktop/Green/Green/weight.pt'
 device = torch.device('cpu')
 model = ResNet()
 model.load_state_dict(torch.load(PATH, map_location=device))
@@ -163,7 +164,6 @@ def reuse(request):
 			print(file_name)
 			print("[INFO]: PREDICTING...")
 			result = predict(file_path)
-			result = None
 
 			if result == 'paper':
 				resources = ['www.youtube.com/paper', 'www.youtube.com/paper', 'www.youtube.com/paper', 'www.youtube.com/paper']

@@ -44,6 +44,8 @@ def login_request(request):
 		user = authenticate(request, username=username, password=password)
 		if user is not None:
 			login(request, user)
+			if user.is_staff:
+				redirect('/profile')
 			redirect('/')
 		else:
 			messages.error(request, 'Invalid Credentials Provided')
